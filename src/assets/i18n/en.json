@@ -1,0 +1,147 @@
+{
+  "GLOBAL": {
+    "TWSILA": "Twsila"
+  },
+  "HEADER": {
+    "NAVBAR": {
+      "HOME": "Home",
+      "ABOUT": "About Twsila",
+      "GALLERY": "Gallery",
+      "PRICING": "Pricing",
+      "CAREER": "Career",
+      "CONTACT": "Contact"
+    },
+    "HERO": {
+      "TEXT1": "Simply with us, move everything: furniture, goods, cars, people... and more with",
+      "TEXT2": "Whether your items are few or many, small or large, a delivery will take them to a nearby or far location without hassle.",
+      "LETSSTART": "Let's Start"
+    }
+  },
+  "ABOUT": {
+    "TITLE": "TWSILA is a Saudi Application",
+    "DESC": "Targeting The Global Market Specialized In Transporting People, Goods, Furniture, Cars, Water,…….and_more."
+  },
+  "PRICING": {
+    "DESC": "We offer a 100% negotiable price between the passenger and the captain. With no app trace, get the most out of all reports."
+  },
+  "CONTACT": {
+    "EMAIL": "Email Address",
+    "FULLNAME": "Full Name",
+    "SUBJECT": "Subject Message",
+    "DESCRIPTION": "Message Description",
+    "PHONE": "Contact Number",
+    "SEND": "Send",
+    "SLOGAN": "Your Feedback Drives Us Forward!"
+  },
+  "CAREER": {
+    "SLOGAN": "Grow with Us, Succeed with Us!",
+    "SUBMIT": "Save",
+    "FIRSTNAME": "First Name",
+    "LASTNAME": "Last Name",
+    "EMAIL": "Email Address",
+    "CV": "Upload Your Resume",
+    "NOFILECHOSEN": "No File Chosen"
+  },
+  "PRIVACY": {
+    "SLOGAN": "Committed to Protecting Your Data!",
+    "SHOW": "Terms and Condition",
+    "TERMSANDCONDITION": {
+      "CONTRACTRELATION": {
+        "TITLE": "Contractual Relationship",
+        "DESC": "These Terms of Use govern the access or use by individuals in the Kingdom of Saudi Arabia of the applications, websites, content and services provided by the Abdul Rahman bin Nasser bin Abdullah Al-Shaqawi Information Systems Technology Foundation (Tawseela Application), a sole proprietorship established in the Kingdom of Saudi Arabia and headquartered in Al-Ahsa."
+      },
+      "TERMSOFUSE": {
+        "TITLE": "Terms of Use",
+        "DESC": "By using the Tawseela Services, you agree to be bound by these Terms, which establish a contractual relationship between you and Tawseela. If you do not agree to these Terms, you may not access or use the Services. These Terms specifically replace any prior agreements or arrangements with you. Tawseela may terminate these Terms or any of the Services to which you are entitled immediately or generally stop offering or deny access to the Services or any part thereof at any time for any reason."
+      },
+      "BASICSERVICES": {
+        "TITLE": "Basic Services",
+        "DESC": "The Services constitute a mobile application that enables users of the mobile applications provided as part of the Services (each, an 'Application') to arrange and schedule transportation and/or logistics services with independent third-party providers of such services, including independent third-party transportation providers and independent third-party logistics providers under an agreement with Tawsilah (the 'Third-Party Providers'). All transportation or logistics services are provided by independent third-party providers who are not employed by Tawsilah or any of its affiliates."
+      },
+      "DISCLAIMERLIMITINFO": {
+        "HEAD": "Disclaimer, Limitation of Liability, and Indemnification",
+        "TITLEDISC": "Disclaimer:",
+        "DESCDISC": "The Services are provided on an 'as is' and 'as available' basis. Tawseela disclaims all representations and warranties, express, implied, or statutory, not expressly set out in these Terms, including the implied warranties of merchantability, fitness for a particular purpose, and non-infringement. Furthermore, Tawseela makes no representations, warranties, or guarantees regarding the timeliness, quality, suitability, or availability of the Services or any of them, or that the Services will be uninterrupted or error-free. Tawseela does not guarantee the quality, suitability, safety, or ability of third-party service providers. You agree that the entire risk arising out of and in connection with your use of the Services remains with you, to the maximum extent permitted by applicable law. You agree to indemnify Tawseela, its officers, directors, employees, and agents from all claims, losses, liabilities, and expenses arising out of or in connection with your use of the Tawseela Platform and Services.",
+        "TITLELIMI": "Limits of Liability:",
+        "DESCLIMI": "Tawsila will not be liable for any direct, indirect, incidental, special, exemplary, punitive, or consequential damages, including loss of profits, loss of data, personal injury, or property damage, related to or resulting in any way from the use of the Services, even if Tawsila has been advised of the possibility of such damages. Tawsila will not be liable for any damages, liabilities, or losses arising from: (1) your use of, reliance on, or inability to access or use the Services; or (2) any transaction or relationship between you and any Third Party Provider, even if Tawsila has been advised of the possibility of such damages. Tawsila will not be liable for delays or failure to perform due to causes beyond Tawsila's reasonable control. You may use the Tawsila Services to request and schedule transportation or logistics services provided by Third Party Providers, but you agree that Tawsila will not be responsible or liable to you for any transportation or logistics services provided to you by Third Party Providers except as expressly set forth in these Terms.",
+        "TITLECOMP": "Compensation",
+        "DESCCOMP": "You agree to indemnify and hold harmless Tosila from and against all claims, losses, liabilities and expenses arising out of or in connection with: (1) your use of the Services (2) your breach or violation of any of these Terms:"
+      },
+      "LAWAPPLICABLE": {
+        "TITLE": "The law applicable to the arbitration proceedings.",
+        "DESC": "Except as otherwise provided in these Terms, these Terms shall be governed by and construed in accordance with the laws of the Kingdom of Saudi Arabia alone, excluding its rules relating to conflicts of laws, and the language of mediation shall be Arabic."
+      },
+      "OTHERPROV": {
+        "HEAD": "Other Provisions",
+        "TITLENOTIFY": "Notifications",
+        "DESCNOTIFY": "Tawsila may provide notices by sending a general notice regarding the Services, by email to your registered email address, by text message or notification through the Application Platform, or by sending a written letter by regular mail to your registered address. You may also provide notices to Tawsila by written correspondence to an address the Company deems appropriate.",
+        "TITLEPOLICY": "Website and Application Platform Policy",
+        "DESCPOLICY": "We collect information that helps us determine your location, including GPS information, Internet Protocol (IP) address, and Wi-Fi network. There are many ways location information helps create a seamless and hassle-free experience. Pricing is determined based on an agreement between the service requester and the captain without any intervention from the app. Your location is used to facilitate driver pickup and drop-off, provide ride status, history, and billing, facilitate research and development, schedule trips, create trips by the captain, enable social features, enhance the safety and security of our users' accounts, and combat and detect fraud."
+      },
+      "TERMSPASSENGER": {
+        "HEAD": "Terms Of Use Of The Passenger",
+        "TITLEUSERACCOUNT": "User Accounts :",
+        "DESCUSERACCOUNT": "In Order To Use Most Aspects Of The Services, You Must Register For And Maintain An Active Personal User Services Account , And You Must Be At Least 18 Years Of Age Or The Legal Age Of Majority In Your Jurisdiction (If Different From 18) In Order To You Get An Account. Account Registration Requires That You Provide Certain Personal Information To Tawasila, Such As Your Name, Address, Mobile Phone Number, And Age, In Addition To At Least One Valid Payment Method (Either Credit Card Or Cash ).You Agree To Record And Maintain Accurate, Complete And Current Information In Your Account. Your Failure To Maintain Accurate, Complete, And Up-to-date Information In Your Account, Including Setting An Invalid Or Expired Payment Method, May Result In Your Inability To Access Or Use The Services Or Terminate The Connection Of These Terms With You, And You Are Responsible For All Activities That Occur In The Name Of Your Account, You Also Agree To Maintain The Security And Confidentiality Of Your Account Username And Password At All Times, You May Not Have More Than One Account Unless Wawsila Allows You In Writing Otherwise .",
+        "TITLEUSERREQ": "User Requirements:",
+        "DESCUSERREQ": "The Service Is Not Available For Use By Persons Under The Age Of 18. You May Not Delegate The Use Of Your Account To Third Parties, Nor May You Allow Persons Under 18 Years Of Age To Obtain Transportation And Logistics Services From Third Party Service Providers Unless They Are Accompanied By You. You May Not Assign Or Transfer Your Account To Any Other Person Or Entity. You Agree To Comply With All Applicable Laws When Using The Services And May Use The Services Only For Lawful Purposes ( For Example, Not To Transmit Illegal Or Dangerous Materials).You May Not, When Using The Services, Cause Harm, Inconvenience, Inconvenience, Or Property Damage, Whether To External Service Providers Or To Any Other Parties, And You Undertake, In The Event That The Account Is Used By Any Other Person For Your Personal Account, To Bear Any Liability Resulting From That.",
+        "TITLETEXTMESSAGE": "Text Messages And Alerts :",
+        "DESCTEXTMESSAGE": "Once You Create An Account, You Agree That The Services Send You Informational Text Messages And Alerts As Part Of The Normal Business Context Of Your Use Of The Services, And You Acknowledge That Receiving Text Messages And Alerts Is Acceptable To Enable Your Use Of The Services",
+        "TITLENETWORKACCESS": "Network Access And Devices :",
+        "DESCNETWORKACCESS": "You Are Responsible For Obtaining The Necessary Network Access Data To Use The Services. Data And Messaging Rates And Fees Applied By The Mobile Network To Which You Subscribe May Apply To You If You Access Or Use The Services From A Wireless Device, And You Are Responsible For These Rates And Fees. You Are Responsible For Acquiring And Updating Appropriate Equipment Or Devices That Are Necessary To Access And Use The Services And Applications And Any Updates Thereto.Tawsila Does Not Guarantee That The Services, Or Any Part Thereof, Will Operate On Any Specific Equipment Or Devices. In Addition, The Services May Experience Malfunctions And Delays Inherent In The Use Of The Internet And Electronic Communications.",
+        "TITLEPAYMENT": "Payment:",
+        "DESCPAYMENT": "You Understand That Use Of The Services May Result In Charges Being Imposed On You For Services You Obtain From A Third Party Service Provider, And After You Receive The Services Obtained Through Your Use Of The Service, Tawsila Will Facilitate Payment Of The Applicable Fees On Behalf Of The Third Party Service Provider In Its Capacity As A Payment Collection Agent. Ltd. Of The Third Party Service Provider. Payment Of The Fees In This Manner Will Be Deemed Effective As If The Payment Had Been Made Directly By You To The Third Party Provider. Fees Will Include Applicable Taxes As Stipulated By Law. All Fees You Pay Are Final And Non-refundable, Unless A Delivery Specifies Otherwise.All Fees Are Due With Immediate Effect Upon Booking, And The Payment Process For Tasla Is Facilitated Using Your Preferred Payment Method Specified In Your Account, After Which Tasla Will Send You A Receipt Via Email Or Through Your Account In The Application, If The Main Payment Method That You Specified In Your Account Is Expired, Invalid, Or Not. Payment Can Be Made Through It. You Agree That Tawsila Company, As The Limited Payment Collection Agent For The External Service Provider, May Use The Secondary Payment Method On Your Account, If Any .As Agreed Between You And Tawsila, Tawsila Reserves The Right To Establish, Cancel And/or Review Fees For Any Or All Of The Services Obtained Through The Use Of The Services At Any Time In Tawsila’s Absolute Discretion. Furthermore , You Acknowledge You Accept That Applicable Fees In Certain Geographic Areas May Increase Significantly During Times Of High Demand. Tasleeh Will Make Reasonable Efforts To Notify You Of The Fees That May Apply To You,Provided That You Bear Responsibility For The Fees Incurred In Your Account, Regardless Of Your Knowledge Of Them Or The Amounts Related To This Account. Tawsali Company May From Time To Time Provide Some Users With Promotional Offers And Discounts That May Result In Varying Amounts Being Paid To Obtain The Same Services Or To Obtain Similar Services While Using The Services, And You Agree Not To Have These Promotional Offers And Discounts - Unless They Are Also Made Available To You . - A Relationship To Your Use Of The Services Or The Fees Charged To You",
+        "TITLEREPAIR": "Repair Or Cleaning Fees:",
+        "DESCREPAIR": "The Passenger Is Responsible For The Cost Of Repairing Damage (Or Necessary Cleaning) To The Third Party Provider's Vehicles And Property Resulting From The Use Of The Services Included In Your Account In Excess Of The Damage Resulting From The Normal Situation, In The Event That The Third Party Provider Informs The Third Party Provider Of His Need For Repair Or Cleaning And The Request For Such Repair Or Cleaning Is Approved By Tawsila Based On Its Reasonable Discretion Tawsila Reserves The Right To Facilitate Payment Of The Reasonable Cost Of Such Repair Or Cleaning To The Third Party Service Provider Using The Payment Method Specified In Your Account. These Amounts Are Transferred Via A Wire To The Relevant Service Provider And Are Non-refundable.",
+        "TITLEPAYMENTMETHOD": "Payment Methods And Policy:",
+        "DESCPAYMENTMETHOD": "A Valid Credit Card On Your Account (The Credit Card Will Be Charged Immediately Upon Completion Of The Reservation) Payment In Cash(immediately Upon Boarding The Passenger And Before The Start Of The Flight.this Is Available For Some Services Only,not All Of Them).",
+        "TITLEOBLIGATION": "Passenger Obligations:",
+        "DESCOBLIGATION": [
+          "Bring Proof Of The Passenger's Identity",
+          "It Is Prohibited To Transport Or Use Alcohol Drugs Or Contraband In The Car",
+          "Smoking Is Strictly Prohibited In The Car",
+          "Commitment To Wear A Seat Belt",
+          "Commitment To Maintaining The Car’s Interior, Not Damaging It Or Throwing Dirt Into It, And Keeping It Clean",
+          "The Passenger Is Solely Responsible For The Loss Of His Personal Belongings (Such As A Mobile Phone , Wallet, Keys, Etc.)",
+          "Commitment To Public Morals And Ethics During The Trip"
+        ],
+        "TITLELUGGAGE": "Luggage:",
+        "DESCLUGGAGE": "The passenger is prohibited from transporting firearms, ammunition, swords and knives Explosives, incendiary materials, flammable materials, toxic materials, compressed gases or any prohibited items The Passenger Is Obligated To Photograph His Luggage That Will Accompany Him On The Flight And Attach The Pictures To Its Icon Within The Application Before The Flight Departure Time. The captain is obligated to verify the luggage in the passenger’s possession and match it with the photos attached to the application. The passenger is not allowed to open the luggage during the trip except with the approval and supervision of the captain"
+      },
+      "TERMSCAPTAIN": {
+        "HEAD": "Captain's Terms Of Use",
+        "DESC": "We appreciate the work and dedication of our captains, and we give them our trust to transport our customers from one place to another in many cities. We ask them to pay attention to the following points so that we may maintain this level of service and trust together",
+        "TITLECAPOBLIGATE": "Captain's Obligations :",
+        "DESCCAPOBLIGATE": [
+          "Maintaining The Cleanliness Of His Vehicle.",
+          "Commitment To Public Morals And Ethics During The Trip.",
+          "The Captain Reserves The Right To Refuse To Transport Any Person In Custody Who Is In Violation Or Who Is Found To Be Wanted Or In An Unhealthy State Or Who Is Found To Be A User Of Drink Or Intoxicants Or The Like.",
+          "Commitment To The Specified Time For The Trip.",
+          "The Passenger's Data Must Be Verified Before Starting The Trip.",
+          "The Captain Is Obligated To Preserve The Passengers’ Luggage, Which Is His Responsibility ( Except For The Passenger’s Personal Belongings, Which Are The Passenger’s Responsibility). The Captain Must Be Careful When Passengers Disembark That They Do Not Forget Anything Of Theirs, And In The Event Of Forgetting, The Captain Is Obligated To Deliver The Belongings To The Delivery Offices.",
+          "It Is Prohibited To Transport Or Use Alcohol, Drugs Or Contraband In The Vehicle.",
+          "Compliance With Traffic Regulations And Transportation Laws.",
+          "In The Event Of A Malfunction Or Problem Occurring During The Trip, The Captain Must Notify The Relevant Official Authorities."
+        ]
+      },
+      "CANCELLATION":{
+        "HEAD":"Cancellation Policy",
+        "DESC":"Trip cancellations cause some inconvenience to both the driver and the passenger, so a mechanism and conditions have been put in place for both parties to know their obligations as a result.",
+
+        "TITLECANCELBYPASSENGER":"1-Trip Cancellation By The Passenger:",
+        "DESCCANCELPASSENGER":"The passenger can cancel the flight 12 hours before its scheduled time without incurring any cancellation fees.The reservation amount is calculated as a future balance for the passenger on a ride that he can use whenever he wants in the future, or the amount paid is refunded. Less Any Bank Expenses, If Any When A Flight Is Canceled After The Period Allowed For Cancellation Has Passed, Fees Are Imposed On The Passenger, which Are As Follows:",
+
+        "TITLEFIRST":"Firstly Scheduled Flights:",
+        "DESCFIRST":"If the cancellation is during the period from 24 hours to 12 hours, the cancellation fee is (0%), and if it is during the period from 12 hours until one hour before the trip start time , the cancellation fee is ( 5%) of the trip value And If It Is Before The Trip Begins One Hour Before The Captain Moves To The Pickup Point, The Cancellation Fee Is ( 10%) Of The Trip Value , And If It Is After The Captain Moves To The Pickup Point, The Cancellation Fee Is (20%) Of The Trip Value, And In This Case The Captain Is Compensated.(5%) Of The Trip Value,the Trip Is Deducted From The Value Of The Next Trip.",
+        "TITLESECOND":"Secondly Temporary Trips:",
+        "DESCSECOND":"If The Cancellation Is During The Period Between Confirm Your Reservation B5 Minutes Before The Captain Moves To The Pickup Point , The Cancellation Fee Is (0%), And If It Is After Confirming The Reservation,it Is 5 Minutes Before The Captain Moves To The Pickup Point,the Cancellation Fee Is (15%) In The Event Of Repeated Cancellation By The Captain, This Weakens The Driver’s Evaluation And Thus He Will Be Banned From The Application And His Dealings With Him Will Be Cancelled In The Event That The Captain Does Not Arrive At The Destination Specified By The Customer And The Captain Does Not Respond To The Work Team On A Ride And Attach Clear Reasons For His Failure To Reach The Specified Location, The Ride Has The Right To Cancel The Trip And Impose A Cancellation Fine (20%) On The Captain Of The Trip Value, And The Ride Has The Right To Ban The Captain . From Using The Application.",
+
+        "TITLECANCELBYTWSILA":"2-Cancellation Of The Trip From A TWSILA:",
+        "DESCCANCELBYTWSILA":"If The Trip Is Canceled By Tawsila For Any Reason (For Example, But Not Limited To: Application Crash - Force Majeure , Etc. ) , The Trip Amount Will Be Returned To The Passenger As A Balance For The Passenger In The Application, Without Tawsila Bearing Any Other Amounts Tawasila Does Not Bear Any Responsibility Resulting From Any Captain Transporting Any Passenger Who Does Not Comply With The Conditions Mentioned Above, And The Captain Bears Full Responsibility For That."
+      }
+    }
+  },
+  "FOOTER": {
+    "EMAIL": "Email:",
+    "PHONE": "Phone:"
+  }
+}

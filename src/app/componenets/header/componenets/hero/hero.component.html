@@ -1,0 +1,21 @@
+<section id="home" [ngClass]="isArabic?'ar-background':'en-background'">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-12 order-md-1 order-2">
+        <h1 class="text-left" data-aos="fade-left">{{"HEADER.HERO.TEXT1"|translate}}</h1>
+        <section class="water-text-wrapper" data-aos="flip-up">
+          <div class="content">
+            <h2>{{"GLOBAL.TWSILA"|translate}}</h2>
+            <h2>{{"GLOBAL.TWSILA"|translate}}</h2>
+          </div>
+        </section>
+        <br>
+        <p class="text-left" data-aos="fade-left">{{"HEADER.HERO.TEXT2"|translate}}</p>
+        <p-button  label="{{'HEADER.HERO.LETSSTART'|translate}}" routerLink="/" fragment="about" size="large" [raised]="true" severity="warn" data-aos="flip-up" />
+      </div>
+      <div class="col-md-6 col-12 order-md-2 order-1" data-aos="zoom-in-up">
+        <img src="../../../../../assets/media/images/hero.png" class="img-fluid" [class.hero-image-ar]="isArabic">
+      </div>
+    </div>
+  </div>
+</section>

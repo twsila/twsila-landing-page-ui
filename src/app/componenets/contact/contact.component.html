@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#f2f0f4" fill-opacity="1"
+    d="M0,192L24,170.7C48,149,96,107,144,112C192,117,240,171,288,192C336,213,384,203,432,165.3C480,128,528,64,576,85.3C624,107,672,213,720,229.3C768,245,816,171,864,128C912,85,960,75,1008,85.3C1056,96,1104,128,1152,138.7C1200,149,1248,139,1296,144C1344,149,1392,171,1416,181.3L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z">
+  </path>
+</svg>
+<section id="contact">
+  <div class="col-12">
+    <section class="title-text-wrapper">
+      <div class="content text-center" data-aos="slide-down">
+        <h2>{{"HEADER.NAVBAR.CONTACT"|translate}}</h2>
+        <h2>{{"HEADER.NAVBAR.CONTACT"|translate}}</h2>
+      </div>
+    </section>
+  </div>
+  <div class="wrapper container">
+    <h2 class="text-center my-4 text-success" data-aos="fade-left">{{"CONTACT.SLOGAN"|translate}}</h2>
+    <div class="row justify-content-between">
+      <div class="col-md-6 col-12 text-center mt-4" data-aos="fade-up">
+        <img src="../../../assets/media/icons/email-mail-svgrepo-com.svg" class="col-1">
+        <h4>{{"CONTACT.EMAIL"|translate}}</h4>
+        <a href="mailto:info@twsila.tech">info&#64;twsila.tech</a>
+        <br><br>
+        <img src="../../../assets/media/icons/phone-svgrepo-com.svg" class="col-1">
+        <h4>{{"CONTACT.PHONE"|translate}}</h4>
+        <p>+966537350413</p>
+      </div>
+      <div class="col-md-6 col-12">
+        <form [formGroup]="contantForm" (submit)="sendMessage()" data-aos="fade-down">
+          <div class="row">
+            <div class="form-group col-6">
+              <label for="email">{{"CONTACT.EMAIL"|translate}}</label>
+              <input type="email" class="form-control" formControlName="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group col-6">
+              <label for="fullName">{{"CONTACT.FULLNAME"|translate}}</label>
+              <input type="text" class="form-control " formControlName="fullName"
+                placeholder="{{'CONTACT.FULLNAME'|translate}}">
+            </div>
+            <div class="form-group mt-2">
+              <label for="subject">{{"CONTACT.SUBJECT"|translate}}</label>
+              <input type="text" class="form-control " formControlName="subject"
+                placeholder="{{'CONTACT.SUBJECT'|translate}}">
+            </div>
+            <div class="form-group">
+              <label for="description">{{"CONTACT.DESCRIPTION"|translate}}</label>
+              <textarea class="form-control" placeholder="{{'CONTACT.DESCRIPTION'|translate}}"
+                formControlName="description" rows="5"></textarea>
+            </div>
+            <div>
+              <p-button type="submit" class="d-block mt-4" label="{{'CONTACT.SEND'|translate}}" size="large"
+                [raised]="true" severity="warn" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#f2f0f4" fill-opacity="1"
+    d="M0,192L24,170.7C48,149,96,107,144,112C192,117,240,171,288,192C336,213,384,203,432,165.3C480,128,528,64,576,85.3C624,107,672,213,720,229.3C768,245,816,171,864,128C912,85,960,75,1008,85.3C1056,96,1104,128,1152,138.7C1200,149,1248,139,1296,144C1344,149,1392,171,1416,181.3L1440,192L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z">
+  </path>
+</svg>

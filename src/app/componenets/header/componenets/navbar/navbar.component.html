@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
+  <div class="container-md">
+    <a class="navbar-brand col-md-1 col-2" href="#" data-aos="flip-up">
+      <img src="../../../../../assets/media/logos/twsila.svg" alt="Twsila" class="img-fluid">
+    </a>
+    <button data-aos="flip-up" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div data-aos="flip-up" class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" fragment="home">{{"HEADER.NAVBAR.HOME"|translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" fragment="about">{{"HEADER.NAVBAR.ABOUT"|translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" fragment="gallery">{{"HEADER.NAVBAR.GALLERY"|translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" fragment="pricing">{{"HEADER.NAVBAR.PRICING"|translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" fragment="contact">{{"HEADER.NAVBAR.CONTACT"|translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" fragment="career">{{"HEADER.NAVBAR.CAREER"|translate}}</a>
+        </li>
+      </ul>
+      <div class="d-flex" data-aos="flip-up">
+        <p-button icon="" [label]="!isArabic?'عربي' : 'English'" variant="text" severity="success" (click)="switchLang()">
+          <ng-template pTemplate="icon">
+            <img [src]="!isArabic?'../../../../../assets/media/icons/flag-for-saudi-arabia-flag.svg':
+            '../../../../../assets/media/icons/united-kingdom-uk-flag.svg'" width="25">
+          </ng-template>
+        </p-button>
+      </div>
+    </div>
+  </div>
+</nav>

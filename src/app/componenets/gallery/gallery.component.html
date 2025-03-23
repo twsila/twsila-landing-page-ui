@@ -1,0 +1,25 @@
+<section id="gallery" class="overflow-hidden">
+  <div class="wrapper container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 mb-5">
+        <section class="title-text-wrapper">
+          <div class="content text-center" data-aos="slide-down">
+            <h2>{{"HEADER.NAVBAR.GALLERY"|translate}}</h2>
+            <h2>{{"HEADER.NAVBAR.GALLERY"|translate}}</h2>
+          </div>
+        </section>
+      </div>
+      <div class="slider-gallery col-md-4 col-12 p-5" data-aos="fade-up">
+        <p-galleria [value]="images" [indicatorsPosition]="'right'" [autoPlay]="true" [circular]="true" [showIndicators]="true" [showThumbnails]="true" [showIndicatorsOnItem]="false">
+            <ng-template pTemplate="item" let-item>
+                <img [src]="item.itemImageSrc" style="width: 100%; display: block;" />
+            </ng-template>
+            <ng-template #thumbnail let-item>
+              <img [src]="item.thumbnailImageSrc" style="width: 100%; display: block;" />
+          </ng-template>
+        </p-galleria>
+    </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 165"><path fill="#000143" fill-opacity="1" d="M0,32L48,64C96,96,192,160,288,154.7C384,149,480,75,576,53.3C672,32,768,64,864,80C960,96,1056,96,1152,112C1248,128,1344,160,1392,176L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+</section>

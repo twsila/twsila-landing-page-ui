@@ -1,0 +1,46 @@
+<section id="career" class="overflow-hidden">
+  <div class="col-12">
+    <section class="title-text-wrapper">
+      <div class="content text-center" data-aos="slide-down">
+        <h2>{{"HEADER.NAVBAR.CAREER"|translate}}</h2>
+        <h2>{{"HEADER.NAVBAR.CAREER"|translate}}</h2>
+      </div>
+    </section>
+  </div>
+  <div class="wrapper container">
+    <h2 class="text-center my-4 text-success" data-aos="fade-left">{{"CAREER.SLOGAN"|translate}}</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-12">
+        <form [formGroup]="careerForm" (submit)="save()"  data-aos="fade-up">
+          <div class="row">
+            <div class="form-group col-6">
+              <label for="firstName">{{"CAREER.FIRSTNAME"|translate}}</label>
+              <input type="text" class="form-control " formControlName="firstName"
+                placeholder="{{'CAREER.FIRSTNAME'|translate}}">
+            </div>
+            <div class="form-group col-6">
+              <label for="lastName">{{"CAREER.LASTNAME"|translate}}</label>
+              <input type="text" class="form-control " formControlName="lastName"
+                placeholder="{{'CAREER.LASTNAME'|translate}}">
+            </div>
+            <div class="form-group mt-2">
+              <label for="email">{{"CAREER.EMAIL"|translate}}</label>
+              <input type="email" class="form-control" formControlName="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group mt-2">
+              <p-fileupload mode="basic" name="demo[]" chooseIcon="pi pi-upload" accept="image/*" maxFileSize="1000000"
+                (onUpload)="onUpload($event)" (onSelect)="onFileSelect($event)" [auto]="true"
+                chooseLabel="{{'CAREER.CV'|translate}}" />
+              <p class="text-center">{{selectedFileName ?selectedFileName:"CAREER.NOFILECHOSEN"|translate}}</p>
+            </div>
+
+            <div class="text-center">
+              <p-button type="submit" class="d-block mt-4" label="{{'CAREER.SUBMIT'|translate}}" size="large"
+                [raised]="true" severity="warn" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

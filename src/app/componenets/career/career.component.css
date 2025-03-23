@@ -1,0 +1,8 @@
+
+.wrapper{
+  margin-top: 5%;
+}
+
+p-fileupload span.filelabel {
+  display: none !important;
+}

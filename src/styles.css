@@ -1,0 +1,160 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.277);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+@font-face {
+  font-family: "Cairo";
+  src: local("Cairo"),
+    url(./assets/fonts/Cairo-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald"),
+    url(./assets/fonts/Oswald-Regular.ttf) format("truetype");
+}
+
+.font-english > * {
+  font-family: Oswald, sans-serif !important;
+}
+
+.font-arabic > * {
+  font-family: Cairo, sans-serif !important;
+}
+
+.title-text-wrapper{
+  position: relative;
+  height: 100px;
+}
+.title-text-wrapper .content {
+  position: relative;
+}
+
+.title-text-wrapper .content h2 {
+  color: #fff;
+}
+
+.title-text-wrapper .content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #e6a014;
+  text-transform: uppercase;
+  font-size: 8em;
+}
+
+.title-text-wrapper .content h2:nth-child(2) {
+  color: #f48c03;
+  text-transform: lowercase;
+  transform: translate(0%,-166%);
+  font-size: 4em;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  /* Styles */
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 767px) {
+  /* Styles */
+  .title-text-wrapper .content h2:nth-child(1){
+    font-size: 4em;
+  }
+  .title-text-wrapper .content h2:nth-child(2){
+    font-size: 2em;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 - 5s ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media
+only screen and (max-device-width: 667px) ,
+only screen and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media
+only screen and (min-device-width : 414px), 
+only screen and (-webkit-device-pixel-ratio: 3) {
+  /*** You've spent way too much on a phone ***/
+}
+
+/* Samsung Galaxy S7 Edge ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-resolution: 192dpi)and (max-width:640px) {
+ /* Styles */
+}

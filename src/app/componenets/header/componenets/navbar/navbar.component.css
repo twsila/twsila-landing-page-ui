@@ -1,0 +1,13 @@
+.navbar-nav .nav-item .nav-link {
+  transition: all 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ef5b27 !important;
+}
+.navbar-nav .nav-item .nav-link:focus {
+  color: #ef5b27 !important;
+}
+
+.navbar-nav .nav-item .active {
+  color: #ef5b27 !important;
+}

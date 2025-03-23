@@ -1,0 +1,57 @@
+<section id="footer">
+  <div class="container">
+    <div class="row text-white">
+      <div class="col-12">
+        <ul class="nav justify-content-center text-white" data-aos="fade-down">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/" fragment="home">{{"HEADER.NAVBAR.HOME"|translate}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/" fragment="about">{{"HEADER.NAVBAR.ABOUT"|translate}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/" fragment="gallery">{{"HEADER.NAVBAR.GALLERY"|translate}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/" fragment="pricing">{{"HEADER.NAVBAR.PRICING"|translate}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/" fragment="contact">{{"HEADER.NAVBAR.CONTACT"|translate}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/" fragment="career">{{"HEADER.NAVBAR.CAREER"|translate}}</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-12">
+        <section class="water-text-wrapper">
+          <div class="content" data-aos="fade-left">
+            <h2>{{"GLOBAL.TWSILA"|translate}}</h2>
+            <h2>{{"GLOBAL.TWSILA"|translate}}</h2>
+          </div>
+        </section>
+      </div>
+      <div class="social-links col-md-4 col-12"  data-aos="fade-up">
+          <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://twitter.com/twsilaTech" target="_blank">
+            <i class="bi bi-twitter-x"></i>
+          </a>
+          <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://www.facebook.com/profile.php?id=61552756503275" target="_blank">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a class="icon-link icon-link-hover text-white" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://www.instagram.com/twsila_tech/" target="_blank">
+            <i class="bi bi-instagram"></i>
+          </a>
+      </div>
+      <div class="col-md-3 col-12" [ngClass]="translate.currentLang == languageEnum.ar?'me-auto':'ms-auto'" data-aos="fade-right">
+        <img src="../../../assets/media/images/google-play.webp" class="col-md-5 col-3 mx-1">
+        <img src="../../../assets/media/images/app-store.webp" class="col-md-5 col-3">
+        <div class="row email-phone">
+          <p class="col-md-6 col-12">{{"FOOTER.EMAIL"|translate}} info&#64;twsila.tech
+          </p>
+          <p class="col-md-6 col-12">{{"FOOTER.PHONE"|translate}} +966537350413
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

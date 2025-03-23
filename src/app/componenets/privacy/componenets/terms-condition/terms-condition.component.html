@@ -1,0 +1,153 @@
+<p-fieldset [toggleable]="true">
+  <ng-template #header>
+    <span class="field-title">{{"PRIVACY.TERMSANDCONDITION.CONTRACTRELATION.TITLE"|translate}}</span>
+  </ng-template>
+  <p>{{"PRIVACY.TERMSANDCONDITION.CONTRACTRELATION.DESC"|translate}}</p>
+</p-fieldset>
+<p-fieldset [toggleable]="true">
+  <ng-template #header>
+    <span class="field-title">{{"PRIVACY.TERMSANDCONDITION.TERMSOFUSE.TITLE"|translate}}</span>
+  </ng-template>
+  <p>{{"PRIVACY.TERMSANDCONDITION.TERMSOFUSE.DESC"|translate}}</p>
+</p-fieldset>
+<p-fieldset [toggleable]="true">
+  <ng-template #header>
+    <span class="field-title">{{"PRIVACY.TERMSANDCONDITION.BASICSERVICES.TITLE"|translate}}</span>
+  </ng-template>
+  <p>{{"PRIVACY.TERMSANDCONDITION.BASICSERVICES.DESC"|translate}}</p>
+</p-fieldset>
+<p-fieldset [toggleable]="true">
+  <ng-template #header>
+    <span class="field-title">{{"PRIVACY.TERMSANDCONDITION.DISCLAIMERLIMITINFO.HEAD"|translate}}</span>
+  </ng-template>
+  <div [ngClass]="translate.currentLang==langEnum.ar?'text-end':'text-start'">
+    <div class="col-md-12">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="icon col-1"><i class="bi bi-backpack4"></i></div>
+        <div class="col-11">
+          <h4>{{"PRIVACY.TERMSANDCONDITION.DISCLAIMERLIMITINFO.TITLEDISC"|translate}}</h4>
+          <p>{{"PRIVACY.TERMSANDCONDITION.DISCLAIMERLIMITINFO.DESCDISC"|translate}}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="icon col-1"><i class="bi bi-backpack4"></i></div>
+        <div class="col-11">
+          <h4>{{"PRIVACY.TERMSANDCONDITION.DISCLAIMERLIMITINFO.TITLELIMI"|translate}}</h4>
+          <p>{{"PRIVACY.TERMSANDCONDITION.DISCLAIMERLIMITINFO.DESCLIMI"|translate}}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="icon col-1"><i class="bi bi-backpack4"></i></div>
+        <div class="col-11">
+          <h4>{{"PRIVACY.TERMSANDCONDITION.DISCLAIMERLIMITINFO.TITLECOMP"|translate}}</h4>
+          <p>{{"PRIVACY.TERMSANDCONDITION.DISCLAIMERLIMITINFO.DESCCOMP"|translate}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</p-fieldset>
+<p-fieldset [toggleable]="true">
+  <ng-template #header>
+    <span class="field-title">{{"PRIVACY.TERMSANDCONDITION.LAWAPPLICABLE.TITLE"|translate}}</span>
+  </ng-template>
+  <p>{{"PRIVACY.TERMSANDCONDITION.LAWAPPLICABLE.DESC"|translate}}</p>
+</p-fieldset>
+<p-fieldset [toggleable]="true">
+  <ng-template #header>
+    <span class="field-title">{{"PRIVACY.TERMSANDCONDITION.OTHERPROV.HEAD"|translate}}</span>
+  </ng-template>
+  <div [ngClass]="translate.currentLang==langEnum.ar?'text-end':'text-start'">
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.OTHERPROV.TITLENOTIFY"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.OTHERPROV.DESCNOTIFY"|translate}}</p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.OTHERPROV.TITLEPOLICY"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.OTHERPROV.DESCPOLICY"|translate}}</p>
+  </div>
+</p-fieldset>
+
+<p-fieldset [toggleable]="true">
+  <ng-template #header>
+    <span class="field-title">{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.HEAD"|translate}}</span>
+  </ng-template>
+  <div [ngClass]="translate.currentLang==langEnum.ar?'text-end':'text-start'" class="text-break">
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.TITLEUSERACCOUNT"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCUSERACCOUNT"|translate}}</p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.TITLEUSERREQ"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCUSERREQ"|translate}}</p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.TITLETEXTMESSAGE"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCTEXTMESSAGE"|translate}} <br></p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.TITLENETWORKACCESS"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCNETWORKACCESS"|translate}}</p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.TITLEPAYMENT"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCPAYMENT"|translate}}</p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.TITLEREPAIR"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCREPAIR"|translate}}</p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.TITLEPAYMENTMETHOD"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCPAYMENTMETHOD"|translate}}</p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.TITLEOBLIGATION"|translate}}</h4>
+    <ul>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCOBLIGATION' | translate)[0]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCOBLIGATION' | translate)[1]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCOBLIGATION' | translate)[2]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCOBLIGATION' | translate)[3]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCOBLIGATION' | translate)[4]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCOBLIGATION' | translate)[5]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSPASSENGER.DESCOBLIGATION' | translate)[6]}}</li>
+    </ul>
+  </div>
+</p-fieldset>
+
+<p-fieldset [toggleable]="true">
+  <ng-template #header>
+    <span class="field-title">{{"PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.HEAD"|translate}}</span>
+  </ng-template>
+  <div [ngClass]="translate.currentLang==langEnum.ar?'text-end':'text-start'" class="text-break">
+    <p>{{"PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.DESC"|translate}}</p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.TITLECAPOBLIGATE"|translate}}</h4>
+    <ul>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.DESCCAPOBLIGATE' | translate)[0]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.DESCCAPOBLIGATE' | translate)[1]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.DESCCAPOBLIGATE' | translate)[2]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.DESCCAPOBLIGATE' | translate)[3]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.DESCCAPOBLIGATE' | translate)[4]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.DESCCAPOBLIGATE' | translate)[5]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.DESCCAPOBLIGATE' | translate)[6]}}</li>
+      <li>{{('PRIVACY.TERMSANDCONDITION.TERMSCAPTAIN.DESCCAPOBLIGATE' | translate)[7]}}</li>
+    </ul>
+  </div>
+</p-fieldset>
+
+<p-fieldset [toggleable]="true">
+  <ng-template #header>
+    <span class="field-title">{{"PRIVACY.TERMSANDCONDITION.CANCELLATION.HEAD"|translate}}</span>
+  </ng-template>
+  <div [ngClass]="translate.currentLang==langEnum.ar?'text-end':'text-start'">
+    <p>{{"PRIVACY.TERMSANDCONDITION.CANCELLATION.DESC"|translate}}</p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.CANCELLATION.TITLECANCELBYPASSENGER"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.CANCELLATION.DESCCANCELPASSENGER"|translate}}</p>
+
+    <h4 class="text-Secondary">{{"PRIVACY.TERMSANDCONDITION.CANCELLATION.TITLEFIRST"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.CANCELLATION.DESCFIRST"|translate}}</p>
+    <h4 class="text-Secondary">{{"PRIVACY.TERMSANDCONDITION.CANCELLATION.TITLESECOND"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.CANCELLATION.DESCSECOND"|translate}}</p>
+
+    <h4 class="text-warning-emphasis">{{"PRIVACY.TERMSANDCONDITION.CANCELLATION.TITLECANCELBYTWSILA"|translate}}</h4>
+    <p>{{"PRIVACY.TERMSANDCONDITION.CANCELLATION.DESCCANCELBYTWSILA"|translate}}</p>
+  </div>
+</p-fieldset>
