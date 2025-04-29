@@ -70,7 +70,7 @@
   animation: animate 1s ease-in-out infinite;
 }
 
-@keyframes animate {
+/*@keyframes animate {
   0%,
   100% {
     clip-path: polygon(
@@ -99,4 +99,4 @@
       0% 100%
     );
   }
-}
+}*/

@@ -43,7 +43,7 @@
   color: #f48c03;
   animation: animate 1s ease-in-out infinite;
 }
-
+/*
 @keyframes animate {
   0%,
   100% {
@@ -74,3 +74,4 @@
     );
   }
 }
+*/
