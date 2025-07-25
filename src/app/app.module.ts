@@ -32,6 +32,7 @@ import { TermsConditionComponent } from './componenets/privacy/componenets/terms
 import { DialogModule } from 'primeng/dialog';
 import { FieldsetModule } from 'primeng/fieldset';
 import { AvatarModule } from 'primeng/avatar';
+import { ImageModule } from 'primeng/image';
 
 
 // Function to load translation files
@@ -59,7 +60,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     FileUpload,
     DialogModule,
     FieldsetModule,
-    AvatarModule
+    AvatarModule,
+    ImageModule
   ],
   providers: [
     provideHttpClient(withInterceptorsFromDi()),
