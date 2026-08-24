@@ -24,20 +24,33 @@
   <span data-l="ar">تخطَّ إلى محتوى السياسة</span>
 </a>
 
-<header class="topbar">
-  <div class="shell topbar-inner">
-    <a class="topbar-logo" href="#top" aria-label="Twsila">
-      <img src="../assets/twsila-logo.png" alt="Twsila">
+<header class="site-navbar" id="site-navbar">
+  <div class="site-navbar-container">
+    <a class="site-navbar-brand" href="/" aria-label="Twsila home">
+      <img src="/assets/media/logos/twsila.svg" alt="Twsila">
     </a>
-    <nav class="topnav" aria-label="Section navigation">
-      <a href="#s2"><span data-l="en">Data collected</span><span data-l="ar">البيانات المجمعة</span></a>
-      <a href="#s3"><span data-l="en">Permissions</span><span data-l="ar">الأذونات</span></a>
-      <a href="#s9"><span data-l="en">Delete account</span><span data-l="ar">حذف الحساب</span></a>
-      <a href="#s13"><span data-l="en">Contact</span><span data-l="ar">اتصل بنا</span></a>
-    </nav>
-    <div class="lang-toggle" role="group" aria-label="Document language">
-      <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
-      <button type="button" data-set-lang="ar" aria-pressed="false">عربي</button>
+    <button class="site-navbar-toggler" type="button" aria-controls="site-navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="site-navbar-toggler-icon"></span>
+    </button>
+    <div class="site-navbar-menu" id="site-navbar-menu">
+      <nav class="site-navbar-links" aria-label="Twsila main navigation">
+        <a href="/#home"><span data-l="en">Home</span><span data-l="ar">الرئيسية</span></a>
+        <a href="/#about"><span data-l="en">About Twsila</span><span data-l="ar">عن توصيلة</span></a>
+        <a href="/#gallery"><span data-l="en">Gallery</span><span data-l="ar">المعرض</span></a>
+        <a href="/#pricing"><span data-l="en">Pricing</span><span data-l="ar">الاسعار</span></a>
+        <a href="/#contact"><span data-l="en">Contact</span><span data-l="ar">تواصل معنا</span></a>
+        <a href="/#career"><span data-l="en">Career</span><span data-l="ar">التوظيف</span></a>
+      </nav>
+      <div class="site-lang-switch" role="group" aria-label="Document language">
+        <button type="button" data-set-lang="ar" aria-pressed="false">
+          <img src="/assets/media/icons/flag-for-saudi-arabia-flag.svg" alt="">
+          <span>عربي</span>
+        </button>
+        <button type="button" data-set-lang="en" aria-pressed="true">
+          <img src="/assets/media/icons/united-kingdom-uk-flag.svg" alt="">
+          <span>English</span>
+        </button>
+      </div>
     </div>
   </div>
 </header>
@@ -50,8 +63,8 @@
       <div>
         <p class="eyebrow"><span data-l="en">Customer application</span><span data-l="ar">تطبيق العملاء</span></p>
         <h1>
-          <span data-l="en">Privacy Policy</span>
-          <span data-l="ar">سياسة الخصوصية</span>
+          <span data-l="en">Passenger Privacy Policy</span>
+          <span data-l="ar">سياسة الخصوصية للراكب</span>
         </h1>
         <p class="app-name"><span data-l="en">Twsila Passenger</span><span data-l="ar">توصيلة للركاب</span></p>
       </div>
@@ -973,6 +986,18 @@
         <span data-l="ar">سياسة خصوصية توصيلة للركاب</span>
       </p>
     </div>
+
+    <nav class="foot-links" aria-label="Privacy and site links">
+      <a href="/">
+        <span data-l="en">Home</span><span data-l="ar">الرئيسية</span>
+      </a>
+      <a href="../passenger/">
+        <span data-l="en">Passenger Privacy Policy</span><span data-l="ar">سياسة الخصوصية للراكب</span>
+      </a>
+      <a href="../captain/">
+        <span data-l="en">Captain Privacy Policy</span><span data-l="ar">سياسة الخصوصية للكابتن</span>
+      </a>
+    </nav>
     <div class="foot-base">
       <span data-l="en">&copy; 2026 Twsila &middot; <a href="mailto:info@twsila.tech">info@twsila.tech</a></span>
       <span data-l="ar">&copy; ٢٠٢٦ توصيلة &middot; <a href="mailto:info@twsila.tech">info@twsila.tech</a></span>

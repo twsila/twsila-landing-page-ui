@@ -59,3 +59,22 @@
     sections.forEach(function (s) { observer.observe(s); });
   }
 })();
+
+(function () {
+  "use strict";
+  var toggler = document.querySelector(".site-navbar-toggler");
+  var menu = document.querySelector(".site-navbar-menu");
+  if (!toggler || !menu) return;
+
+  toggler.addEventListener("click", function () {
+    var open = menu.classList.toggle("is-open");
+    toggler.setAttribute("aria-expanded", String(open));
+  });
+
+  menu.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function () {
+      menu.classList.remove("is-open");
+      toggler.setAttribute("aria-expanded", "false");
+    });
+  });
+})();

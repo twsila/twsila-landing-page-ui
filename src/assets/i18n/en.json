@@ -123,25 +123,25 @@
           "In The Event Of A Malfunction Or Problem Occurring During The Trip, The Captain Must Notify The Relevant Official Authorities."
         ]
       },
-      "CANCELLATION":{
-        "HEAD":"Cancellation Policy",
-        "DESC":"Trip cancellations cause some inconvenience to both the driver and the passenger, so a mechanism and conditions have been put in place for both parties to know their obligations as a result.",
-
-        "TITLECANCELBYPASSENGER":"1-Trip Cancellation By The Passenger:",
-        "DESCCANCELPASSENGER":"The passenger can cancel the flight 12 hours before its scheduled time without incurring any cancellation fees.The reservation amount is calculated as a future balance for the passenger on a ride that he can use whenever he wants in the future, or the amount paid is refunded. Less Any Bank Expenses, If Any When A Flight Is Canceled After The Period Allowed For Cancellation Has Passed, Fees Are Imposed On The Passenger, which Are As Follows:",
-
-        "TITLEFIRST":"Firstly Scheduled Flights:",
-        "DESCFIRST":"If the cancellation is during the period from 24 hours to 12 hours, the cancellation fee is (0%), and if it is during the period from 12 hours until one hour before the trip start time , the cancellation fee is ( 5%) of the trip value And If It Is Before The Trip Begins One Hour Before The Captain Moves To The Pickup Point, The Cancellation Fee Is ( 10%) Of The Trip Value , And If It Is After The Captain Moves To The Pickup Point, The Cancellation Fee Is (20%) Of The Trip Value, And In This Case The Captain Is Compensated.(5%) Of The Trip Value,the Trip Is Deducted From The Value Of The Next Trip.",
-        "TITLESECOND":"Secondly Temporary Trips:",
-        "DESCSECOND":"If The Cancellation Is During The Period Between Confirm Your Reservation B5 Minutes Before The Captain Moves To The Pickup Point , The Cancellation Fee Is (0%), And If It Is After Confirming The Reservation,it Is 5 Minutes Before The Captain Moves To The Pickup Point,the Cancellation Fee Is (15%) In The Event Of Repeated Cancellation By The Captain, This Weakens The Driver’s Evaluation And Thus He Will Be Banned From The Application And His Dealings With Him Will Be Cancelled In The Event That The Captain Does Not Arrive At The Destination Specified By The Customer And The Captain Does Not Respond To The Work Team On A Ride And Attach Clear Reasons For His Failure To Reach The Specified Location, The Ride Has The Right To Cancel The Trip And Impose A Cancellation Fine (20%) On The Captain Of The Trip Value, And The Ride Has The Right To Ban The Captain . From Using The Application.",
-
-        "TITLECANCELBYTWSILA":"2-Cancellation Of The Trip From A TWSILA:",
-        "DESCCANCELBYTWSILA":"If The Trip Is Canceled By Tawsila For Any Reason (For Example, But Not Limited To: Application Crash - Force Majeure , Etc. ) , The Trip Amount Will Be Returned To The Passenger As A Balance For The Passenger In The Application, Without Tawsila Bearing Any Other Amounts Tawasila Does Not Bear Any Responsibility Resulting From Any Captain Transporting Any Passenger Who Does Not Comply With The Conditions Mentioned Above, And The Captain Bears Full Responsibility For That."
+      "CANCELLATION": {
+        "HEAD": "Cancellation Policy",
+        "DESC": "Trip cancellations cause some inconvenience to both the driver and the passenger, so a mechanism and conditions have been put in place for both parties to know their obligations as a result.",
+        "TITLECANCELBYPASSENGER": "1-Trip Cancellation By The Passenger:",
+        "DESCCANCELPASSENGER": "The passenger can cancel the flight 12 hours before its scheduled time without incurring any cancellation fees.The reservation amount is calculated as a future balance for the passenger on a ride that he can use whenever he wants in the future, or the amount paid is refunded. Less Any Bank Expenses, If Any When A Flight Is Canceled After The Period Allowed For Cancellation Has Passed, Fees Are Imposed On The Passenger, which Are As Follows:",
+        "TITLEFIRST": "Firstly Scheduled Flights:",
+        "DESCFIRST": "If the cancellation is during the period from 24 hours to 12 hours, the cancellation fee is (0%), and if it is during the period from 12 hours until one hour before the trip start time , the cancellation fee is ( 5%) of the trip value And If It Is Before The Trip Begins One Hour Before The Captain Moves To The Pickup Point, The Cancellation Fee Is ( 10%) Of The Trip Value , And If It Is After The Captain Moves To The Pickup Point, The Cancellation Fee Is (20%) Of The Trip Value, And In This Case The Captain Is Compensated.(5%) Of The Trip Value,the Trip Is Deducted From The Value Of The Next Trip.",
+        "TITLESECOND": "Secondly Temporary Trips:",
+        "DESCSECOND": "If The Cancellation Is During The Period Between Confirm Your Reservation B5 Minutes Before The Captain Moves To The Pickup Point , The Cancellation Fee Is (0%), And If It Is After Confirming The Reservation,it Is 5 Minutes Before The Captain Moves To The Pickup Point,the Cancellation Fee Is (15%) In The Event Of Repeated Cancellation By The Captain, This Weakens The Driver’s Evaluation And Thus He Will Be Banned From The Application And His Dealings With Him Will Be Cancelled In The Event That The Captain Does Not Arrive At The Destination Specified By The Customer And The Captain Does Not Respond To The Work Team On A Ride And Attach Clear Reasons For His Failure To Reach The Specified Location, The Ride Has The Right To Cancel The Trip And Impose A Cancellation Fine (20%) On The Captain Of The Trip Value, And The Ride Has The Right To Ban The Captain . From Using The Application.",
+        "TITLECANCELBYTWSILA": "2-Cancellation Of The Trip From A TWSILA:",
+        "DESCCANCELBYTWSILA": "If The Trip Is Canceled By Tawsila For Any Reason (For Example, But Not Limited To: Application Crash - Force Majeure , Etc. ) , The Trip Amount Will Be Returned To The Passenger As A Balance For The Passenger In The Application, Without Tawsila Bearing Any Other Amounts Tawasila Does Not Bear Any Responsibility Resulting From Any Captain Transporting Any Passenger Who Does Not Comply With The Conditions Mentioned Above, And The Captain Bears Full Responsibility For That."
       }
     }
   },
   "FOOTER": {
     "EMAIL": "Email:",
-    "PHONE": "Phone:"
+    "PHONE": "Phone:",
+    "PRIVACY_POLICY": "Privacy Policies",
+    "PASSENGER_PRIVACY": "Passenger Privacy Policy",
+    "CAPTAIN_PRIVACY": "Captain Privacy Policy"
   }
 }
